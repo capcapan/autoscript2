@@ -24,7 +24,7 @@ echo -e "         $COLOR1      ${WH}HANYA TERSEDIA UNTUK ADMIN VVIP    ${NC}"
 echo -e "         $COLOR1    ${WH}Please Buy Permission In Your Admin   ${NC}"
 echo -e "         $COLOR1             ${WH}ADMIN CONTACT   ${NC}"
 echo -e "         $COLOR1         ${WH}Telegram: t.me/diwayaa    ${NC}"
-echo -e "         $COLOR1      ${WH}Whatsapp: wa.me/628228835977    ${NC}"
+echo -e "         $COLOR1      ${WH}Whatsapp: wa.me/6281228861758    ${NC}"
 echo -e "         $COLOR1╰══════════════════════════════════════════╯${NC}"
 read -n 1 -s -r -p " [ Enter ] To Regristed"
 cd
@@ -34,11 +34,11 @@ menu
 }
 checking_sc
 clear
-Repo1="https://raw.githubusercontent.com/Mhd-Isa/permission/main/"
+Repo1="https://raw.githubusercontent.com/oktaviaps/permission/main/"
 export MYIP=$( curl -s https://ipinfo.io/ip/ )
 SELLER=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $2}')
 Exp100=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $3}')
-data_ip="https://raw.githubusercontent.com/Mhd-Isa/permission/main/seler"
+data_ip="https://raw.githubusercontent.com/oktaviaps/permission/main/seler"
 d2=$(date -d "$date_list" +"+%s")
 d1=$(date -d "$Exp" +"+%s")
 dayleft=$(( ($d1 - $d2) / 86400 ))
