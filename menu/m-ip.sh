@@ -23,8 +23,8 @@ echo -e "         $COLOR1╭═════════════════�
 echo -e "         $COLOR1      ${WH}HANYA TERSEDIA UNTUK ADMIN VVIP    ${NC}"
 echo -e "         $COLOR1    ${WH}Please Buy Permission In Your Admin   ${NC}"
 echo -e "         $COLOR1             ${WH}ADMIN CONTACT   ${NC}"
-echo -e "         $COLOR1         ${WH}Telegram: t.me/diwayaa    ${NC}"
-echo -e "         $COLOR1      ${WH}Whatsapp: wa.me/6281228861758    ${NC}"
+echo -e "         $COLOR1         ${WH}Telegram: t.me/Jms_Store    ${NC}"
+echo -e "         $COLOR1      ${WH}Whatsapp: wa.me/6282288325977    ${NC}"
 echo -e "         $COLOR1╰══════════════════════════════════════════╯${NC}"
 read -n 1 -s -r -p " [ Enter ] To Regristed"
 cd
@@ -34,11 +34,11 @@ menu
 }
 checking_sc
 clear
-Repo1="https://raw.githubusercontent.com/oktaviaps/permission/main/"
+Repo1="https://raw.githubusercontent.com/Mhd-Isa/permission/main/"
 export MYIP=$( curl -s https://ipinfo.io/ip/ )
 SELLER=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $2}')
 Exp100=$(curl -sS ${Repo1}ip | grep $MYIP | awk '{print $3}')
-data_ip="https://raw.githubusercontent.com/oktaviaps/permission/main/seler"
+data_ip="https://raw.githubusercontent.com/Mhd-Isa/permission/main/seler"
 d2=$(date -d "$date_list" +"+%s")
 d1=$(date -d "$Exp" +"+%s")
 dayleft=$(( ($d1 - $d2) / 86400 ))
@@ -127,8 +127,8 @@ URL="https://api.telegram.org/bot$KEY/sendMessage"
     git add . &> /dev/null
     git commit -m m &> /dev/null
     git branch -M main &> /dev/null
-    git remote add origin https://github.com/oktaviaps/permission
-    git push -f https://${TOKEN}@github.com/oktaviaps/permission.git &> /dev/null
+    git remote add origin https://github.com/Mhd-Isa/permission
+    git push -f https://${TOKEN}@github.com/Mhd-Isa/permission.git &> /dev/null
     rm -rf /root/ipvps
     clear
     sleep 1
@@ -205,8 +205,8 @@ TIMES="10"
     git add . &> /dev/null
     git commit -m m &> /dev/null
     git branch -M main &> /dev/null
-    git remote add origin https://github.com/oktaviaps/permission
-    git push -f https://${TOKEN}@github.com/oktaviaps/permission.git &> /dev/null
+    git remote add origin https://github.com/Mhd-Isa/permission
+    git push -f https://${TOKEN}@github.com/Mhd-Isa/permission.git &> /dev/null
     rm -rf /root/ipvps
     clear
     sleep 1
@@ -266,8 +266,8 @@ TIMES="10"
     git add . &> /dev/null
     git commit -m m &> /dev/null
     git branch -M main &> /dev/null
-    git remote add origin https://github.com/oktaviaps/permission
-    git push -f https://${TOKEN}@github.com/oktaviaps/permission.git &> /dev/null
+    git remote add origin https://github.com/Mhd-Isa/permission
+    git push -f https://${TOKEN}@github.com/Mhd-Isa/permission.git &> /dev/null
     rm -rf /root/ipvps
     clear
     sleep 1
