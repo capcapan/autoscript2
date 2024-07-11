@@ -881,7 +881,7 @@ cd
 
 clear
 print_install "Memasang Menu Packet"
-wget https://raw.githubusercontent.com/Mhd-Isa/autoscript/main/menu/menu.zip
+wget https://raw.githubusercontent.com/capcapan/autoscript/main/menu/menu.zip
 wget -q -O /usr/bin/enc "https://raw.githubusercontent.com/capcapan/autoscript/main/Enc/encrypt" ; chmod +x /usr/bin/enc
 unzip menu.zip
 chmod +x menu/*
